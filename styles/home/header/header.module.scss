@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #2A2A2A;
+}
+.header__container{
+    margin: 0 auto;
+
+    @media screen and (min-width:760px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 700px;
+    }
+
+    @media screen and (min-width:1200px) {
+    min-width: 1020px;
+    }
+}

@@ -1,0 +1,34 @@
+
+.navList {
+    display: flex;
+}
+
+.navLink {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px 0;
+    line-height: 1.16;
+    color: #E4E4E4;
+
+}
+
+.navLink__current {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 15px 0;
+    line-height: 1.16;
+    color: #e41d1d;
+
+}
+
+.navItem+.navItem {
+    @media screen and (min-width: 480px) {
+        margin-left: 30px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-left: 80px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 150px;
+    }
+}
